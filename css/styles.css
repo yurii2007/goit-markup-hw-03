@@ -136,7 +136,8 @@ body {
     background-color: #404BBF;
 }
 .about {
-    padding: 120px 0;
+    padding-top: 120px;
+    padding-bottom: 120px;
 }
 .about-title {
     font-weight: 500;
