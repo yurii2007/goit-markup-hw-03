@@ -6,6 +6,16 @@ body {
 :root {
     --primary-text-color: #434455;
 }
+.container {
+    width:1158px;
+}
+header {
+    display:flex;
+    padding-left: 156px;
+}
+nav {
+    display: flex;
+}
 .list {
     font-weight: 500;
     font-size: 16px;
@@ -32,6 +42,10 @@ body {
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #2E2F42;
+    padding-right: 40px;
+}
+.list-link:last-child {
+    padding-right: o;
 }
 .list-link:hover,
 :focus {
@@ -43,8 +57,18 @@ body {
 .main-address {
     font-style: normal;
 }
+.header-logo {
+    margin-top:24px;
+    margin-right: 76px;
+}
+.header-main-list{
+    display: flex;
+    margin-top:24px;
+}
 .header-contact {
     font-style: normal;
+    display: flex;
+    padding-right:156px;
 }
 .contact-link {
     font-weight: 400;
