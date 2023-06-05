@@ -8,10 +8,13 @@ body {
 }
 .container {
     width:1158px;
+}
+.header-container {
+    display: flex;
     margin: 0 auto;
     padding: 0 15px;
 }
-header {
+.top {
     display:flex;
     padding-left: 156px;
     border-bottom: 1px solid #e7e9fc
@@ -86,6 +89,7 @@ nav {
 }
 .main-box {
     background-color: #2E2F42;
+    padding: 188px 0;
 }
 .main-box-title {
     font-weight: 700;
@@ -94,6 +98,7 @@ nav {
     text-align: center;
     letter-spacing: 0.02em;
     color: #FFFFFF;
+    max-width: 496px;
 }
 .main-box-btn {
     background: #4D5AE5;
@@ -106,7 +111,10 @@ nav {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.04em;
-    color: #FFFFFF;
+    display: block;
+    min-width: 169px;
+    height: 56px;
+    border-radius: 4px
 }
 .main-box-btn:hover,
 .main-box-btn:focus {
@@ -149,6 +157,9 @@ nav {
 }
 .our-team-item {
     background-color: #FFFFFF;
+}
+img {
+    display: block;
 }
 .our-team-title {
     font-weight: 500;
