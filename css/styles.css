@@ -8,13 +8,17 @@ body {
 }
 .container {
     width:1158px;
+    margin: 0 auto;
+    padding: 0 15px;
 }
 header {
     display:flex;
     padding-left: 156px;
+    border-bottom: 1px solid #e7e9fc
 }
 nav {
     display: flex;
+    align-items: center;
 }
 .list {
     font-weight: 500;
@@ -42,10 +46,7 @@ nav {
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #2E2F42;
-    padding-right: 40px;
-}
-.list-link:last-child {
-    padding-right: o;
+    padding: 24px 0;
 }
 .list-link:hover,
 :focus {
@@ -58,17 +59,19 @@ nav {
     font-style: normal;
 }
 .header-logo {
-    margin-top:24px;
     margin-right: 76px;
 }
 .header-main-list{
     display: flex;
-    margin-top:24px;
+    gap: 40px;
 }
 .header-contact {
     font-style: normal;
     display: flex;
-    padding-right:156px;
+    gap: 40px;
+}
+.header-contact:last-child {
+    margin-right: 0;
 }
 .contact-link {
     font-weight: 400;
