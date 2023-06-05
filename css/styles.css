@@ -135,6 +135,9 @@ body {
 .main-box-btn:focus {
     background-color: #404BBF;
 }
+.about {
+    padding: 120px 0;
+}
 .about-title {
     font-weight: 500;
     font-size: 20px;
@@ -148,7 +151,7 @@ body {
     gap: 24px;
 }
 .list-about-item {
-    width: calc((100% - 72px) / 4);
+    flex-basis: calc((100% - 72px) / 4);
 }
 .about-description {
     font-weight: 400;
@@ -175,7 +178,7 @@ body {
     gap: 24px;
 }
 .list-benefits-item {
-    width: calc((100% - 48px) / 3);
+    flex-basis: calc((100% - 3 * 16px) / 3);
 }
 .our-team {
     background-color: #F4F4FD;
@@ -197,7 +200,7 @@ body {
 }
 .our-team-item {
     background-color: #FFFFFF;
-    width: calc((100% - 72px) / 4);
+    flex-basis: calc((100% - 72px) / 4);
     border-radius: 0px 0px 4px 4px;
 }
 img {
@@ -227,7 +230,7 @@ img {
 }
 .footer {
     background-color: #2E2F42;
-    padding: 100px 0 100px 156px;
+    padding: 100px 0;
 }
 .footer-logo-part {
     color: #f4f4fd;
@@ -296,7 +299,7 @@ img {
     row-gap: 48px;
 }
 .prt-main-item {
-    width: calc((100% - 48px) / 3);
+    width: calc((100% - 48px)/3);
 }
 .prt-main-links {
     padding: 32px 16px;
