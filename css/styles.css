@@ -182,9 +182,14 @@ img {
 }
 .footer {
     background-color: #2E2F42;
+    padding: 100px 0 100px 156px;
 }
 .footer-logo-part {
     color: #f4f4fd;
+}
+.footer-logo {
+    display: inline-block;
+    margin-bottom: 16px;
 }
 .footer-description {
     font-weight: 400;
@@ -192,6 +197,7 @@ img {
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #F4F4FD;
+    max-width: 264px;
 }
 .nav-btn {
     background-color: #F4F4FD;
