@@ -18,6 +18,9 @@ body {
     clip: rect(0 0 0 0);
     overflow: hidden;
 }
+ul {
+    padding-left: 0;
+}
 .container {
     width:1158px;
     margin: 0 auto;
@@ -42,7 +45,7 @@ body {
     line-height: 24px;
     letter-spacing: 0.02em;
     color: #2E2F42;
-    list-style-type: none;
+    list-style: none;
 } 
 .logo-part {
     color: #2E2F42;
@@ -73,6 +76,7 @@ body {
 }
 .main-address {
     font-style: normal;
+    margin-left: 100px;
 }
 .header-logo {
     margin-right: 76px;
@@ -85,9 +89,6 @@ body {
     font-style: normal;
     display: flex;
     gap: 40px;
-}
-.header-contact:last-child {
-    margin-right: 0;
 }
 .contact-link {
     font-weight: 400;
@@ -288,6 +289,9 @@ img {
     padding-top: 96px;
     padding-bottom: 120px;
 }
+.portfolio-container{
+    padding: 0 15px;
+}
 .prt-nav-list {
     display: flex;
     justify-content: center;
@@ -301,7 +305,7 @@ img {
     row-gap: 48px;
 }
 .prt-main-item {
-    width: calc((100% - 48px)/3);
+    width: calc((100% - 48px) / 3);
 }
 .prt-main-links {
     padding: 32px 16px;
