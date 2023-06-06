@@ -201,7 +201,7 @@ body {
 }
 .our-team-item {
     background-color: #FFFFFF;
-    flex-basis: calc((100% - 72px) / 4);
+    width: calc((100% - 72px) / 4);
     border-radius: 0px 0px 4px 4px;
 }
 img {
