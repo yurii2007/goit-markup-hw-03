@@ -152,7 +152,7 @@ body {
     gap: 24px;
 }
 .list-about-item {
-    flex-basis: calc((100% - 72px) / 4);
+    width: calc((100% - 72px) / 4);
 }
 .about-description {
     font-weight: 400;
