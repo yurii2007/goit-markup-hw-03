@@ -1,3 +1,28 @@
+/*RESET*/
+
+*,
+::before,
+::after {
+    box-sizing: border-box;
+}
+ul,
+ol {
+    margin: 0;
+    padding: 0;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0;
+}
+p {
+    margin: 0;
+    padding: 0;
+}
+
 body {
     color: #434455;
     font-family: 'Roboto', sans-serif;
@@ -18,12 +43,10 @@ body {
     clip: rect(0 0 0 0);
     overflow: hidden;
 }
-ul {
-    padding-left: 0;
-}
 .container {
     width:1158px;
     margin: 0 auto;
+    padding: 0 15px;
 }
 .header-container {
     display: flex;
@@ -32,12 +55,14 @@ ul {
 }
 .top {
     display:flex;
-    padding-left: 156px;
     border-bottom: 1px solid #e7e9fc
 }
 .header-link {
     display: flex;
     align-items: center;
+    margin-left: 156px;
+    padding: 24px 0px;
+    margin-right: auto;
 }
 .list {
     font-weight: 500;
@@ -76,7 +101,7 @@ ul {
 }
 .main-address {
     font-style: normal;
-    margin-left: 100px;
+    padding: 24px 0;
 }
 .header-logo {
     margin-right: 76px;
