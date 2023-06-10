@@ -53,7 +53,7 @@ body {
     margin: 0 auto;
     padding: 0 15px;
 }
-.top {
+.header {
     display:flex;
     border-bottom: 1px solid #e7e9fc
 }
@@ -90,7 +90,6 @@ body {
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #2E2F42;
-    padding: 24px 0;
 }
 .list-link:hover,
 :focus {
