@@ -55,13 +55,13 @@ body {
 }
 .header {
     display:flex;
-    border-bottom: 1px solid #e7e9fc
+    border-bottom: 1px solid #e7e9fc;
+    padding:24px 0;
 }
 .header-link {
     display: flex;
     align-items: center;
     margin-left: 156px;
-    padding: 24px 0px;
     margin-right: auto;
 }
 .list {
@@ -100,7 +100,6 @@ body {
 }
 .main-address {
     font-style: normal;
-    padding: 24px 0;
 }
 .header-logo {
     margin-right: 76px;
